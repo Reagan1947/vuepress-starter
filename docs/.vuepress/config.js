@@ -1,5 +1,8 @@
 // 导出一个 JavaScrip 对象
 module.exports = {
+    head: [
+      ['link', { rel: 'icon', href: '/MainPageIcon.svg' }]
+    ],
     configureWebpack: {
         resolve: {
           alias: {
