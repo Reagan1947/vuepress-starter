@@ -1,0 +1,81 @@
+$accentColor = #3884ff
+
+mark {
+   background-color: #3884ff;
+   color: white;
+   padding: 0.2rem 0.4rem;
+   border-radius: 0.2rem;
+   box-decoration-break: clone;
+   -webkit-box-decoration-break: clone;
+}
+
+// 使用 Prism.js 自带主题
+// @import  "~prismjs/themes/prism-dark.css"
+
+// 默认主题样式 ----------------------------------------------------------------
+// 代码块：默认字体样式(区别于变量等)
+.theme-default-content pre code, .theme-default-content pre[class*="language-"] code {
+    // color: #476582
+}
+// 代码块：代码行高
+.theme-default-content pre, .theme-default-content pre[class*="language-"] {
+    padding: 0.31rem 1.5rem;
+}
+// 默认 a 标签样式
+/*
+.theme-default-content:not(.custom) a {
+    color: $mainColor;
+}
+*/
+
+code, kbd, .line-numbers-wrapper, .highlight-lines, pre[class*=language-] {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}   
+.page {
+    // 代码块：行号字体
+    div[class*="language-"].line-numbers-mode .line-numbers-wrapper {  // 编号区域
+        color: #9daab6;
+    }
+    // 代码块：语言(右上角)
+    div[class*="language-"]::before {
+        color: #5a6d85;
+        font-size: 14px;
+    }
+    // 代码块：背景和边框
+    div[class*="language-"].line-numbers-mode::after{ // 编号区域
+        background: #183055; 
+        // 编号右侧线条默认为黑色
+        // border-right: 1px solid #ead2d2;   
+    }
+    div[class*="language-"] {
+        margin-top: 15px;
+        background: #183055; 
+        border: 1px solid rgba(6,6,6,.1);
+    }
+    // 类型为 bash
+    /**
+    div[class*="language-bash"].line-numbers-mode pre {
+        padding-left: 14px;
+    }
+    div[class*="language-bash"].line-numbers-mode::after {
+        width: 0;
+    }
+    div[class*="language-bash"].line-numbers-mode .line-numbers-wrapper {
+        color: rgba(0,0,0,0)
+    }
+    // 代码括号
+    .token.punctuation {
+        color: #807a7a;    
+    }
+    **/
+    // 代码注释
+    .token.comment {
+        color: #9daab6;
+    }
+  
+    // 代码变量
+    .token.string {
+        color: #ffffff;
+    }    
+    
+}
