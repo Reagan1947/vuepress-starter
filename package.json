@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "markdown-it-mark": "^3.0.1",
-    "markdown-it-marked": "^0.3.0",
+    "markdown-it-marked": "^0.3.0"
   }
 }
