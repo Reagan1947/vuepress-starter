@@ -14,14 +14,20 @@ module.exports = {
     title: 'Hi JAVA',
     description: 'Just playing around',
     plugins: [
-        'vuepress-plugin-mermaidjs'
+        'vuepress-plugin-mermaidjs',
+        'vuepress-plugin-mathjax',
+      {
+        target: 'svg',
+        macros: {
+          '*': '\\times',
+        },
+      },
     ],
     markdown: {
         lineNumbers: true,
         extendMarkdown: md => {
             // 使用更多的 markdown-it 插件!
             md.use(require('markdown-it-mark'));
-            md.render('==marked==') // => '<p><mark>marked</mark></p>'
           },
 
     },
@@ -38,9 +44,7 @@ module.exports = {
         sidebar: [
             {
                 title: 'Java 基础语法',   // 分组标题
-                path: '/foo/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
                 collapsable: false, // 可选的, 默认值是 true,
-                sidebarDepth: 1,    // 可选的, 默认值是 1
                 children: [
                   '/JavaDocument/JavaBase/Base/注释.md',
                   '/JavaDocument/JavaBase/Base/关键字.md',
