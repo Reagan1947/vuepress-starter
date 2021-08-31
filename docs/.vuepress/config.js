@@ -23,6 +23,7 @@ module.exports = {
 
     },
     themeConfig: {
+      smoothScroll: true,  // 在页面内进行跳转时，页面会平滑滚动
         nav: [
           { text: '主页', link: '/' },
           { text: 'Java 基础', link: '/JavaDocument/' },
