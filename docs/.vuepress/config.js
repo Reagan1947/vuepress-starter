@@ -49,9 +49,9 @@ module.exports = {
                 collapsable: false, // 是否展开该分组
                 children: [
                     '/JavaDocument/JavaBase/Collection/Collection.md',
-                    ['/JavaDocument/JavaBase/Collection/List概述.md', 'List 概述'],
-                    ['/JavaDocument/JavaBase/Collection/常见数据结构.md', '常见数据结构'],
-                    ['/JavaDocument/JavaBase/Collection/List集合的子类.md', 'List 集合的子类'],
+                    '/JavaDocument/JavaBase/Collection/List概述.md', 
+                    '/JavaDocument/JavaBase/Collection/常见数据结构.md',
+                    '/JavaDocument/JavaBase/Collection/List集合的子类.md',
                 ],
                 // initialOpenGroupIndex: 4, // 初始文章展开深度
               }
