@@ -35,7 +35,7 @@ module.exports = {
       smoothScroll: true,  // 在页面内进行跳转时，页面会平滑滚动
         nav: [
           { text: '主页', link: '/' },
-          { text: 'Java 基础', link: '/JavaDocument/' },
+          { text: 'Java 基础', link: '/JavaDocument/JavaBase/Base/注释.md' },
           { text: 'Java 线程', link: '/JavaThread/' },
           { text: '结构与算法', link: '/ConstructAndAlgorithm/' },
           { text: 'Java JVM', link: 'https://google.com' },
@@ -84,6 +84,7 @@ module.exports = {
                   '/JavaDocument/JavaBase/Base/字符串的遍历.md',
                   '/JavaDocument/JavaBase/Base/统计字符次数.md',
                   '/JavaDocument/JavaBase/Base/String中的方法.md',
+                  '/JavaDocument/JavaBase/Base/集合基础.md',
                   '/JavaDocument/JavaBase/Base/StringBuilder概述.md',
                   '/JavaDocument/JavaBase/Base/StringBuilder的添加和反转方法.md',
                   '/JavaDocument/JavaBase/Base/继承.md',

@@ -4,7 +4,7 @@ heroImage: /MainPageIcon.svg
 heroText: Java Learning Document
 tagline: Stay Hungry Stay Foolish
 actionText: 立即阅读 →
-actionLink: /JavaDocument/
+actionLink: /JavaDocument/JavaBase/Base/注释.md
 features:
 - title: Java 基础语法
   details: 一个 Java 程序可以认为是一系列对象的集合，而这些对象通过调用彼此的方法来协同工作。
