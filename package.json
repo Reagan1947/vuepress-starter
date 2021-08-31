@@ -8,11 +8,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "dependencies": {
     "markdown-it-mark": "^3.0.1",
-    "markdown-it-marked": "^0.3.0"
+    "markdown-it-marked": "^0.3.0",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
