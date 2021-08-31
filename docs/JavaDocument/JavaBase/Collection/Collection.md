@@ -255,7 +255,7 @@ public class IteratorDemo {
 
 ==Sorce Link==：https://1drv.ms/p/s!Atmd1rID6xjMhLVoktJOiTR3_Y4v1A
 
-## 1.7 案例：Collecton集合存储学生对象并遍历
+## 1.7 案例: Collecton集合存储学生对象并遍历
 
 ### 1.7.1 案例概述
 

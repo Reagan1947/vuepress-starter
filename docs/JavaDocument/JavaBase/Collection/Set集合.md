@@ -296,7 +296,7 @@ final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
 
 ![image-20210825124755334](https://research-campus-1256316910.cos.ap-chongqing.myqcloud.com/PicGoimage-20210825124755334.png)
 
-## 1.6 案例：HashSet 集合存储学生对象并遍历
+## 1.6 案例: HashSet 集合存储学生对象并遍历
 
 ### 1.6.1 案例概述
 
