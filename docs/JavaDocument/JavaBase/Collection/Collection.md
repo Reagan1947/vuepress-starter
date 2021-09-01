@@ -1,6 +1,6 @@
 # Collection
 
-## 1.1 集合的知识回顾
+## 1.1 创建时间备份
 
 集合类的特点：提供了一种存储空间可变的存储模型，存储的数据容量可以随时发生改变
 
@@ -58,14 +58,14 @@ classDef mainClass fill:#ffe0b2, stroke:#ff9800;
 
 **==注==：图中蓝色图示均为接口，红色图示均为其对应实现类**
 
-## 1.3 Collection集合的概述和使用
+## 1.3 Collection 集合的概述和使用
 
-### 1.3.1 Collection集合概述
+### 1.3.1 Collection 集合概述
 
 - 是单列集合的顶层接口，它表示一组对象，这些对象也称为 Collection 元素
 - JDK 不提供此接口的任何直接实现，它提供更具体的子接口(如 Set 和 List )实现
 
-### 1.3.2 创建Collection集合的对象
+### 1.3.2 创建 Collection 集合的对象
 
 - 多态的方式
 - 具体的实现类 ArrayList
@@ -97,6 +97,10 @@ public class CollectionDemo01 {
 }
 
 ```
+
+<br>
+
+<br>
 
 ## 1.4 Collection 集合常用方法
 
@@ -162,17 +166,23 @@ public class CollectionDemo02 {
 
 ```
 
+<br>
+
+<br>
+
 ## 1.5 Collection 集合的遍历
 
 ### 1.5.1 Iterator 迭代器概述
 
-- Iterator迭代器，集合的专用遍历方式
-  - `Iterator<E> iterator()`：返回此集合元素中的迭代器，通过集合的 `iterator()` 方法得到
-  - 迭代器是通过集合的 `iterator()` 方法得到的，所以我们说它是依赖于集合而存在的
+Iterator 迭代器，集合的专用遍历方式：
+- `Iterator<E> iterator()`：返回此集合元素中的迭代器，通过集合的 `iterator()` 方法得到
+- 迭代器是通过集合的 `iterator()` 方法得到的，所以我们说它是依赖于集合而存在的
 
-- Iterator 迭代器中的常用方法
-  - `E next()`：返回迭代中的下一个元素
-  - `boolean hasNext()`：如果迭代具有更多元素，则返回 true
+
+
+Iterator 迭代器中的常用方法：
+- `E next()`：返回迭代中的下一个元素
+- `boolean hasNext()`：如果迭代具有更多元素，则返回 true
 
 ### 1.5.2 参考代码
 
@@ -247,29 +257,40 @@ public class IteratorDemo {
 }
 ```
 
+<br>
+
+<br>
+
 ## 1.6 集合的使用步骤
+
 <br>
 <img src="https://research-campus-1256316910.cos.ap-chongqing.myqcloud.com/PicGoimage-20210822164214026.png" alt="image-20210822164214026" style="zoom:150%;" />
 
 ![image-20210822164301529](https://research-campus-1256316910.cos.ap-chongqing.myqcloud.com/PicGoimage-20210822164301529.png)
 
-==Sorce Link==：https://1drv.ms/p/s!Atmd1rID6xjMhLVoktJOiTR3_Y4v1A
+==Sorce Link==：[查看幻灯片文件](https://1drv.ms/p/s!Atmd1rID6xjMhLVoktJOiTR3_Y4v1A)
+
+<br>
+
+<br>
 
 ## 1.7 案例: Collecton集合存储学生对象并遍历
 
 ### 1.7.1 案例概述
 
-- 需求：创建一个存储学生对象的集合，存储三个学生对象，使用程序实现在控制台遍历该集合
-- 思路：
-  1. 定义学生类
-  2. 创建 Collection 集合对象
-  3. 创建学生对象
-  4. 把学生添加到集合
-  5. 遍历集合(迭代器方式)
+需求：创建一个存储学生对象的集合，存储三个学生对象，使用程序实现在控制台遍历该集合
+
+思路：
+
+1.  定义学生类
+2.  创建 Collection 集合对象
+3.  创建学生对象
+4.  把学生添加到集合
+5.  遍历集合(迭代器方式)
 
 ### 1.7.2 代码实现
 
-==CollectionDemo类==
+==CollectionDemo==
 
 ```java
 public class CollectionDemo {
@@ -298,7 +319,7 @@ public class CollectionDemo {
 }
 ```
 
-==Student类==
+==Student==
 
 ```java
 public class Student {

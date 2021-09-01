@@ -34,6 +34,11 @@ $accentColor = rgb(0, 112, 201);
     line-height: 1.6;
 }
 
+a.sidebar-link {
+    font-weight: 500;
+    color: #333!important;
+}
+
 body {
     /* Adjust font size */
     font-size: 16px;
@@ -46,12 +51,52 @@ body {
     -webkit-font-smoothing: antialiased!important;
 
     font-family: 'SF-Pro', 'PingFang-SC', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     direction ltr;
-    color: #333;
+    color: #333!important;
     text-align left;
 }
 
+.theme-default-content h2, .theme-default-content h3, .theme-default-content h4{
+    margin-top: 1.3em!important;
+    font-weight: 600!important;
+    letter-spacing: .011em!important;
+}
+
+.theme-default-content h2 {
+    letter-spacing: .011em;
+}
+
+.theme-default-content ul {
+    list-style: disc outside;
+    margin-left: 2px;
+}
+
+h3 {
+    padding: 0!important;
+}
+
+// 二级标题上方
+h2 {
+    display: block;
+    margin-block-start: 0.83em!important;
+    padding: 0!important;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+// 三级标题上方
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 
 // 覆盖 Chrome 等浏览器默认设置
 .theme-default-content p {

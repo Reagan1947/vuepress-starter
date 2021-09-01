@@ -15,8 +15,8 @@ module.exports = {
     title: 'Hi JAVA',
     description: 'Just playing around',
     plugins: [
-        'vuepress-plugin-mermaidjs',
-        'vuepress-plugin-mathjax',
+      [ 'mermaidjs', { flowchart: {curve: 'linear'}}],
+      'vuepress-plugin-mathjax',
       {
         target: 'svg',
         macros: {
