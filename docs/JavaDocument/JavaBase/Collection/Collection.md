@@ -1,6 +1,6 @@
 # Collection
 
-## 1.1 创建时间备份
+## 1.1 集合类的特点
 
 集合类的特点：提供了一种存储空间可变的存储模型，存储的数据容量可以随时发生改变
 
@@ -98,10 +98,6 @@ public class CollectionDemo01 {
 
 ```
 
-<br>
-
-<br>
-
 ## 1.4 Collection 集合常用方法
 
 ### 1.4.1 常用方法
@@ -166,10 +162,6 @@ public class CollectionDemo02 {
 
 ```
 
-<br>
-
-<br>
-
 ## 1.5 Collection 集合的遍历
 
 ### 1.5.1 Iterator 迭代器概述
@@ -177,8 +169,6 @@ public class CollectionDemo02 {
 Iterator 迭代器，集合的专用遍历方式：
 - `Iterator<E> iterator()`：返回此集合元素中的迭代器，通过集合的 `iterator()` 方法得到
 - 迭代器是通过集合的 `iterator()` 方法得到的，所以我们说它是依赖于集合而存在的
-
-
 
 Iterator 迭代器中的常用方法：
 - `E next()`：返回迭代中的下一个元素
@@ -257,10 +247,6 @@ public class IteratorDemo {
 }
 ```
 
-<br>
-
-<br>
-
 ## 1.6 集合的使用步骤
 
 <br>
@@ -269,10 +255,6 @@ public class IteratorDemo {
 ![image-20210822164301529](https://research-campus-1256316910.cos.ap-chongqing.myqcloud.com/PicGoimage-20210822164301529.png)
 
 ==Sorce Link==：[查看幻灯片文件](https://1drv.ms/p/s!Atmd1rID6xjMhLVoktJOiTR3_Y4v1A)
-
-<br>
-
-<br>
 
 ## 1.7 案例: Collecton集合存储学生对象并遍历
 
