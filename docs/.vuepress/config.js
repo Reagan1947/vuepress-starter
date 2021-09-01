@@ -45,7 +45,7 @@ module.exports = {
         sidebar: [
             {
                 title: 'Java 基础语法',   // 分组标题
-                collapsable: true, // 可选的, 默认值是 true,
+                collapsable: false, // 可选的, 默认值是 true,
                 children: [
                   '/JavaDocument/JavaBase/Base/注释.md',
                   '/JavaDocument/JavaBase/Base/关键字.md',
