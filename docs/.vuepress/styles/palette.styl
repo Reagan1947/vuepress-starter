@@ -63,6 +63,10 @@ body {
     letter-spacing: .011em!important;
 }
 
+.theme-default-content code {
+    color: #333
+}
+
 .theme-default-content ul {
     list-style: disc outside;
     margin-left: 1px;
@@ -98,7 +102,7 @@ h3 {
 .theme-default-content p {
     margin-block-start:0;
     margin-block-end: 0;
-    line-height: 1.6;
+    line-height: 1.7;
     margin-top: 13px
 }
 
@@ -131,7 +135,7 @@ $contentWidth = 52rem; // 文章内容的宽度
 // 默认主题样式 ----------------------------------------------------------------
 // 代码块：默认字体样式(区别于变量等)
 .theme-default-content pre code, .theme-default-content pre[class*='language-'] code {
-    // color: #476582
+    // color: #ffff;
 }
 
 // 代码块：代码行高
@@ -145,8 +149,17 @@ $contentWidth = 52rem; // 文章内容的宽度
 }
 */
 code, kbd, .line-numbers-wrapper, .highlight-lines, pre[class*=language-] {
-    font-family: JetBrains-Mono, source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-family: JetBrains-Mono, source-code-pro, PingFang-SC, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+// code {
+//     padding: 0.2rem 0.4rem;
+//     font-size: 0.9rem;
+//     border-radius: 0.2rem;
+//     box-decoration-break: clone;
+//     -webkit-box-decoration-break: clone;
+//     color: #333;
+// }
 
 .page {
     // 代码块：行号字体
