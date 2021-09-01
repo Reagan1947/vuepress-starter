@@ -6,8 +6,9 @@ module.exports = {
     configureWebpack: {
         resolve: {
           alias: {
-            // 静态资源路径变量
-            // '@Collection': '/JavaDocument/JavaBase/Collection'
+            // 字体地址别名
+            // 'SF-Pro': '/font/SF-Pro',
+            // 'PingFang-SC': '/font/PingFang-SC',
           }
         }
     },
@@ -24,7 +25,7 @@ module.exports = {
       },
     ],
     markdown: {
-        lineNumbers: true,
+        lineNumbers: false,
         extendMarkdown: md => {
             // 使用更多的 markdown-it 插件!
             md.use(require('markdown-it-mark'));
@@ -44,7 +45,7 @@ module.exports = {
         sidebar: [
             {
                 title: 'Java 基础语法',   // 分组标题
-                collapsable: false, // 可选的, 默认值是 true,
+                collapsable: true, // 可选的, 默认值是 true,
                 children: [
                   '/JavaDocument/JavaBase/Base/注释.md',
                   '/JavaDocument/JavaBase/Base/关键字.md',

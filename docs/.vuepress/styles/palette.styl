@@ -1,34 +1,79 @@
-$accentColor = #3884ff
+// 主题颜色
+$accentColor = rgb(0, 112, 201);
+
+// 英文字体 SF-Pro
+@font-face {
+    font-family: 'SF-Pro';
+    src: url('/font/SF-Pro/SF-Pro-Text-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// 中文字体 苹方 PingFang
+@font-face {
+    font-family: 'PingFang-SC';
+    src: url('/font/PingFang-SC/PingFang-Medium.ttf') format('truetype')
+    font-weight: normal;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'PingFang-SC';
+//     src: url('/font/PingFang-Multi/PingFang-SC.eot');
+//     src: url('/font/PingFang-Multi/PingFang-SC.eot') format('embedded-opentype'),
+//          url('/font/PingFang-Multi/PingFang-SC.woff2') format('woff2'),
+//          url('/font/PingFang-Multi/PingFang-SC.woff') format('woff'),
+//          url('/font/PingFang-Multi/PingFang-SC.ttf') format('truetype'),
+//          url('/font/PingFang-Multi/PingFang-SC.svg') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// 给 content 中的 li 元素增加 间隔
+.theme-default-content li + li {
+    margin-top: 6px;
+}
+
+.theme-default-content li, .theme-default-content ol, .theme-default-content ul {
+    line-height: 1.52947;
+}
 
 body {
-    // font-size: 0.95rem;
-    // line-height: 1.6rem;
+    /* Adjust font size */
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%
+
+     /* 文字平滑 */
+    text-rendering: optimizeLegibility!important;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased!important;
+    -webkit-font-smoothing: antialiased!important;
+
+    font-family: 'SF-Pro', 'PingFang-SC', sans-serif;
     font-weight: 400;
-    color: #3b454e;
+    direction ltr;
+    color: #333;
+    text-align left
 }
 
-p {
-    line-height: 1.7;
-}
-// 抵消 Chrome 的默认设置
-p {
-//     display: block;
-    margin-block-start: 0.6em;
-    margin-block-end: 0.6em;
-//     margin-inline-start: 0px;
-//     margin-inline-end: 0px;
+// 覆盖 Chrome 等浏览器默认设置
+.theme-default-content p {
+    margin-block-start:0;
+    margin-block-end: 0;
+    line-height: 1.52947;
+    margin-top: 13px
 }
 
 mark {
-   background-color: #3884ff;
-   color: white;
-   padding: 0.15rem 0.3rem;
-   border-radius: 0.2rem;
-   box-decoration-break: clone;
-   -webkit-box-decoration-break: clone;
+    background-color: #3884ff;
+    color: white;
+    padding: 0.15rem 0.3rem;
+    border-radius: 0.2rem;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
 }
 
-$contentWidth = 52rem   // 文章内容的宽度
+$contentWidth = 52rem; // 文章内容的宽度
 
 // $accentColor = #3eaf7c  // 链接的颜色
 // $textColor = #2c3e50    // 文本的颜色
@@ -38,51 +83,55 @@ $contentWidth = 52rem   // 文章内容的宽度
 // $navbarHeight = 3.6rem  // 导航栏的高度
 // $sidebarWidth = 16rem   // 侧边栏的宽度
 
-
 // 使用 Prism.js 自带主题
 // @import  "~prismjs/themes/prism-dark.css"
 
 // 默认主题样式 ----------------------------------------------------------------
 // 代码块：默认字体样式(区别于变量等)
-.theme-default-content pre code, .theme-default-content pre[class*="language-"] code {
+.theme-default-content pre code, .theme-default-content pre[class*='language-'] code {
     // color: #476582
 }
+
 // 代码块：代码行高
-.theme-default-content pre, .theme-default-content pre[class*="language-"] {
+.theme-default-content pre, .theme-default-content pre[class*='language-'] {
     padding: 0.31rem 1.5rem;
 }
-// 默认 a 标签样式
+
 /*
 .theme-default-content:not(.custom) a {
     color: $mainColor;
 }
 */
-
 code, kbd, .line-numbers-wrapper, .highlight-lines, pre[class*=language-] {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}   
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
 .page {
     // 代码块：行号字体
-    div[class*="language-"].line-numbers-mode .line-numbers-wrapper {  // 编号区域
+    div[class*='language-'].line-numbers-mode .line-numbers-wrapper { // 编号区域
         color: #9daab6;
     }
+
     // 代码块：语言(右上角)
-    div[class*="language-"]::before {
+    div[class*='language-']::before {
         color: #5a6d85;
         font-size: 14px;
     }
+
     // 代码块：背景和边框
-    div[class*="language-"].line-numbers-mode::after{ // 编号区域
-        background: #183055; 
+    div[class*='language-'].line-numbers-mode::after { // 编号区域
+        background: #183055;
         // 编号右侧线条默认为黑色
-        // border-right: 1px solid #ead2d2;   
+        // border-right: 1px solid #ead2d2;
     }
-    div[class*="language-"] {
+
+    div[class*='language-'] {
         margin-top: 15px;
-        background: #183055; 
-        border: 1px solid rgba(6,6,6,.1);
+        background: #183055;
+        border: 1px solid rgba(6, 6, 6, 0.1);
     }
-    // 类型为 bash
+
+    // 代码注释
     /**
     div[class*="language-bash"].line-numbers-mode pre {
         padding-left: 14px;
@@ -97,15 +146,13 @@ code, kbd, .line-numbers-wrapper, .highlight-lines, pre[class*=language-] {
     .token.punctuation {
         color: #807a7a;    
     }
-    **/
-    // 代码注释
+    * */
     .token.comment {
         color: #9daab6;
     }
-  
+
     // 代码变量
     .token.string {
         color: #ffffff;
-    }    
-    
+    }
 }
