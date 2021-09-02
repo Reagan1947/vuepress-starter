@@ -249,12 +249,13 @@ public class IteratorDemo {
 
 ## 1.6 集合的使用步骤
 
-<br>
-<img src="https://research-campus-1256316910.cos.ap-chongqing.myqcloud.com/PicGoimage-20210822164214026.png" alt="image-20210822164214026" style="zoom:150%;" />
+ <br>
+
+
 
 ![image-20210822164301529](https://research-campus-1256316910.cos.ap-chongqing.myqcloud.com/PicGoimage-20210822164301529.png)
 
-==Sorce Link==：[查看幻灯片文件](https://1drv.ms/p/s!Atmd1rID6xjMhLVoktJOiTR3_Y4v1A)
+[查看幻灯片文件](https://1drv.ms/p/s!Atmd1rID6xjMhLVoktJOiTR3_Y4v1A)
 
 ## 1.7 案例: Collecton 集合存储学生对象并遍历
 

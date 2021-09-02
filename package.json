@@ -3,6 +3,7 @@
     "@vuepress/plugin-search": "^1.8.2",
     "vuepress": "^1.8.2",
     "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-md-enhance": "^1.20.1",
     "vuepress-plugin-mermaidjs": "^1.8.1"
   },
   "name": "vuepress-starter",
