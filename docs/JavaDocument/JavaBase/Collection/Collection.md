@@ -251,9 +251,9 @@ public class IteratorDemo {
 
  <br>
 
+![CollectionUsingStep-01](https://research-campus-1256316910.cos.ap-chongqing.myqcloud.com/PicGoCollectionUsingStep-01.svg)
 
-
-![image-20210822164301529](https://research-campus-1256316910.cos.ap-chongqing.myqcloud.com/PicGoimage-20210822164301529.png)
+![CollectionUsingStep-02](https://research-campus-1256316910.cos.ap-chongqing.myqcloud.com/PicGoCollectionUsingStep-02.svg)
 
 [查看幻灯片文件](https://1drv.ms/p/s!Atmd1rID6xjMhLVoktJOiTR3_Y4v1A)
 
