@@ -52,6 +52,7 @@ module.exports = {
                   '/JavaDocument/JavaBase/Base/常量.md',
                   '/JavaDocument/JavaBase/Base/数据类型.md',
                   '/JavaDocument/JavaBase/Base/变量.md',
+                  '/JavaDocument/JavaBase/Base/变量使用的注意事项.md',
                   '/JavaDocument/JavaBase/Base/标识符.md',
                   '/JavaDocument/JavaBase/Base/类型转换.md',
                   '/JavaDocument/JavaBase/Base/算数运算符.md',
