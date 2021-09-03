@@ -62,6 +62,7 @@ module.exports = {
                   '/JavaDocument/JavaBase/Base/自增自减运算符.md',
                   '/JavaDocument/JavaBase/Base/关系运算符.md',
                   '/JavaDocument/JavaBase/Base/逻辑运算符.md',
+                  '/JavaDocument/JavaBase/Base/短路逻辑运算符.md',
                   '/JavaDocument/JavaBase/Base/流程控制.md',
                   '/JavaDocument/JavaBase/Base/for循环语句.md',
                   '/JavaDocument/JavaBase/Base/Random.md',

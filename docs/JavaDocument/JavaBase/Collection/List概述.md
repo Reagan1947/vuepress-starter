@@ -125,10 +125,6 @@ public class ListDemo02 {
 }
 ```
 
-<br>
-
-<br>
-
 ## 1.3 案例：List 集合存储学生对象并遍历
 
 ### 1.3.1 案例概述
@@ -189,10 +185,6 @@ public class ListDemo {
     }
 }
 ```
-
-<br>
-
-<br>
 
 ## 1.4 并发修改异常
 
@@ -393,13 +385,9 @@ public class ListIteratorDemo {
 }
 ```
 
-<br>
-
-<br>
-
 ## 1.6 ListIterator 与并发修改异常
 
-在 ListIterator 中使用 `add()` 方法时不会触发 [并发修改异常](#_1-4-并发修改异常)，因为在 ListIterator 的 `add()` 方法中会将实际修改值赋值给预期修改值，具体的源码分析如下：
+在 ListIterator 中使用 `add()` 方法时不会触发[并发修改异常](#_1-4-并发修改异常)，因为在 ListIterator 的 `add()` 方法中会将实际修改值赋值给预期修改值，具体的源码分析如下：
 
 ```java
 public interface List<E> extends Collection<E> {
