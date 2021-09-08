@@ -12,7 +12,7 @@ module.exports = {
           }
         }
     },
-    title: 'Hi JAVA',
+    title: 'Learning-Java.Fun',
     description: 'Just playing around',
     plugins: [
       [ 'mermaidjs', { flowchart: {curve: 'linear'}}], // linear or basis
@@ -35,11 +35,17 @@ module.exports = {
     themeConfig: {
       smoothScroll: true,  // 在页面内进行跳转时，页面会平滑滚动
         nav: [
-          { text: '主页', link: '/' },
-          { text: 'Java 基础', link: '/JavaDocument/JavaBase/Base/注释.md' },
-          { text: 'Java 线程', link: '/JavaThread/' },
-          { text: '结构与算法', link: '/ConstructAndAlgorithm/' },
-          { text: 'Java JVM', link: 'https://google.com' },
+          // { text: '主页', link: '/' },
+          {
+            text: 'Java 语法',
+            ariaLabel: 'Java Grammar',
+            items: [
+              { text: 'Java 基础语法', link: '/JavaDocument/JavaBase/Base/注释.md' },
+              { text: 'Java 集合', link: '/JavaDocument/JavaBase/Collection/Collection.md' }
+            ]
+          },
+          { text: 'Java 虚拟机', link: 'https://google.com' },
+          { text: '结构与算法', link: 'https://google.com' },
         ],
         // 侧边栏
         sidebar: [
@@ -83,6 +89,7 @@ module.exports = {
                   '/JavaDocument/JavaBase/Base/多个数组内存图.md',
                   '/JavaDocument/JavaBase/Base/多个数组指向相同内存图.md',
                   '/JavaDocument/JavaBase/Base/数组静态初始化.md',
+                  '/JavaDocument/JavaBase/Base/数组操作的两个常见小问题.md',
 
                   '/JavaDocument/JavaBase/Base/数组常见操作.md',
                   '/JavaDocument/JavaBase/Base/方法.md',
