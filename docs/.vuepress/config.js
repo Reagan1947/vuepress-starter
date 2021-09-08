@@ -156,6 +156,10 @@ module.exports = {
                     '/JavaDocument/JavaBase/Collection/类型通配符.md',
                     '/JavaDocument/JavaBase/Collection/可变参数.md',
                     '/JavaDocument/JavaBase/Collection/可变参数的使用.md',
+                    '/JavaDocument/JavaBase/Collection/Map集合的概述和特点.md',
+                    '/JavaDocument/JavaBase/Collection/Map集合的基本功能.md',
+                    '/JavaDocument/JavaBase/Collection/Map集合的获取功能.md',
+                    '/JavaDocument/JavaBase/Collection/Map集合的遍历(方式1).md',
                 ],
                 // initialOpenGroupIndex: 4, // 初始文章展开深度
               }
