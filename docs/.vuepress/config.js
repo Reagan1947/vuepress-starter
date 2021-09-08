@@ -82,6 +82,7 @@ module.exports = {
                   '/JavaDocument/JavaBase/Base/单个数组内存图.md',
                   '/JavaDocument/JavaBase/Base/多个数组内存图.md',
                   '/JavaDocument/JavaBase/Base/多个数组指向相同内存图.md',
+                  '/JavaDocument/JavaBase/Base/数组静态初始化.md',
 
                   '/JavaDocument/JavaBase/Base/数组常见操作.md',
                   '/JavaDocument/JavaBase/Base/方法.md',
@@ -159,7 +160,8 @@ module.exports = {
                     '/JavaDocument/JavaBase/Collection/Map集合的概述和特点.md',
                     '/JavaDocument/JavaBase/Collection/Map集合的基本功能.md',
                     '/JavaDocument/JavaBase/Collection/Map集合的获取功能.md',
-                    '/JavaDocument/JavaBase/Collection/Map集合的遍历(方式1).md',
+                    '/JavaDocument/JavaBase/Collection/Map集合的遍历_方式1.md',
+                    '/JavaDocument/JavaBase/Collection/Map集合的遍历_方式2.md',
                 ],
                 // initialOpenGroupIndex: 4, // 初始文章展开深度
               }
