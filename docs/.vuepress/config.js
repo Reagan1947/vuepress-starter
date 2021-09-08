@@ -12,7 +12,7 @@ module.exports = {
           }
         }
     },
-    title: 'Learning-Java.Fun',
+    title: 'Learning-Java /.Fun',
     description: 'Just playing around',
     plugins: [
       [ 'mermaidjs', { flowchart: {curve: 'linear'}}], // linear or basis
