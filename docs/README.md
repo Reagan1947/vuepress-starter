@@ -11,6 +11,6 @@ features:
 - title: Java 虚拟机
   details: JVM 是 JavaVirtualMachine (Java虚拟机) 的缩写，JVM 是一种用于计算设备的规范，它是一个虚构出来的计算机，是通过在实际的计算机上仿真模拟各种计算机功能来实现的。
 - title: 数据结构与算法
-  details: 数据结构是计算机存储、组织数据的方式，是指相互之间存在一种或多种特定关系的数据元素的集合。而且算法则是解决一个特定问题的步骤的集合。
+  details: 数据结构是计算机存储、组织数据的方式，是指相互之间存在一种或多种特定关系的数据元素的集合。而算法则是解决一个特定问题的步骤的集合。
 footer: MIT Licensed | Copyright © 2019-Present Lee
 ---
