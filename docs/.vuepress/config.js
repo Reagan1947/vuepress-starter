@@ -90,8 +90,10 @@ module.exports = {
                   '/JavaDocument/JavaBase/Base/多个数组指向相同内存图.md',
                   '/JavaDocument/JavaBase/Base/数组静态初始化.md',
                   '/JavaDocument/JavaBase/Base/数组操作的两个常见小问题.md',
-
                   '/JavaDocument/JavaBase/Base/数组常见操作.md',
+                  '/JavaDocument/JavaBase/Base/方法概述.md',
+                  '/JavaDocument/JavaBase/Base/方法定义和调用.md',
+
                   '/JavaDocument/JavaBase/Base/方法.md',
                   '/JavaDocument/JavaBase/Base/方法重载.md',
                   '/JavaDocument/JavaBase/Base/Debug.md',
@@ -161,6 +163,7 @@ module.exports = {
                     '/JavaDocument/JavaBase/Collection/List集合的子类.md',
                     '/JavaDocument/JavaBase/Collection/Set集合.md',
                     '/JavaDocument/JavaBase/Collection/泛型.md',
+                    
                     '/JavaDocument/JavaBase/Collection/类型通配符.md',
                     '/JavaDocument/JavaBase/Collection/可变参数.md',
                     '/JavaDocument/JavaBase/Collection/可变参数的使用.md',
