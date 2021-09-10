@@ -177,6 +177,7 @@ module.exports = {
                     '/JavaDocument/JavaBase/Collection/案例_ArrayList集合存储HashMap元素并遍历.md',
                     '/JavaDocument/JavaBase/Collection/案例_HashMap集合存储ArrayList元素并遍历.md',
                     '/JavaDocument/JavaBase/Collection/案例_统计字符串中每个字符出现的次数.md',
+                    '/JavaDocument/JavaBase/Collection/Collections.md',
                 ],
                 // initialOpenGroupIndex: 4, // 初始文章展开深度
               }
