@@ -41,7 +41,7 @@ module.exports = {
             ariaLabel: 'Java Grammar',
             items: [
               { text: 'Java 基础语法', link: '/JavaDocument/JavaBase/Base/注释.md' },
-              { text: 'Java 集合', link: '/JavaDocument/JavaBase/Collection/Collection.md' }
+              { text: 'Java 集合进阶', link: '/JavaDocument/JavaBase/Collection/集合体系结构.md' }
             ]
           },
           { text: 'Java 虚拟机', link: 'https://google.com' },
@@ -154,19 +154,61 @@ module.exports = {
                 ]
               },
               {
-                title: 'Java 集合',
+                title: 'Java 集合进阶',
                 collapsable: false, // 是否展开该分组
-                children: [
-                    '/JavaDocument/JavaBase/Collection/Collection.md',
-                    '/JavaDocument/JavaBase/Collection/List概述.md', 
-                    '/JavaDocument/JavaBase/Collection/常见数据结构.md',
-                    '/JavaDocument/JavaBase/Collection/List集合的子类.md',
-                    '/JavaDocument/JavaBase/Collection/Set集合.md',
-                    '/JavaDocument/JavaBase/Collection/泛型.md',
-
-                    '/JavaDocument/JavaBase/Collection/类型通配符.md',
-                    '/JavaDocument/JavaBase/Collection/可变参数.md',
-                    '/JavaDocument/JavaBase/Collection/可变参数的使用.md',
+                children: [ 
+                  {
+                  title: 'Collection',
+                  collapsable: false, // 是否展开该分组
+                  children: [
+                    '/JavaDocument/JavaBase/Collection/集合体系结构.md',
+                    '/JavaDocument/JavaBase/Collection/Collection集合概述和使用.md',
+                    '/JavaDocument/JavaBase/Collection/Collection集合常用方法.md',
+                    '/JavaDocument/JavaBase/Collection/Collection集合的遍历.md',
+                    '/JavaDocument/JavaBase/Collection/集合使用步骤图解.md',
+                    '/JavaDocument/JavaBase/Collection/案例_Collection集合存储学生对象并遍历.md',
+                  ]
+                },
+                {
+                  title: 'List',
+                  collapsable: false, // 是否展开该分组
+                  children: [
+                    '/JavaDocument/JavaBase/Collection/List集合概述和特点.md',
+                    '/JavaDocument/JavaBase/Collection/List集合特有方法.md',
+                    '/JavaDocument/JavaBase/Collection/案例_List集合存储学生对象并遍历.md',
+                    '/JavaDocument/JavaBase/Collection/Collection集合的遍历.md',
+                    '/JavaDocument/JavaBase/Collection/集合使用步骤图解.md',
+                    '/JavaDocument/JavaBase/Collection/案例_Collection集合存储学生对象并遍历.md',
+                  ]
+                },
+                {
+                  title: 'Set',
+                  collapsable: false, // 是否展开该分组
+                  children: [
+                    '/JavaDocument/JavaBase/Collection/集合体系结构.md',
+                    '/JavaDocument/JavaBase/Collection/Collection集合概述和使用.md',
+                    '/JavaDocument/JavaBase/Collection/Collection集合常用方法.md',
+                    '/JavaDocument/JavaBase/Collection/Collection集合的遍历.md',
+                    '/JavaDocument/JavaBase/Collection/集合使用步骤图解.md',
+                    '/JavaDocument/JavaBase/Collection/案例_Collection集合存储学生对象并遍历.md',
+                  ]
+                },
+                {
+                  title: '泛型',
+                  collapsable: false, // 是否展开该分组
+                  children: [
+                    '/JavaDocument/JavaBase/Collection/集合体系结构.md',
+                    '/JavaDocument/JavaBase/Collection/Collection集合概述和使用.md',
+                    '/JavaDocument/JavaBase/Collection/Collection集合常用方法.md',
+                    '/JavaDocument/JavaBase/Collection/Collection集合的遍历.md',
+                    '/JavaDocument/JavaBase/Collection/集合使用步骤图解.md',
+                    '/JavaDocument/JavaBase/Collection/案例_Collection集合存储学生对象并遍历.md',
+                  ]
+                },
+                {
+                  title: 'Map',
+                  collapsable: false, // 是否展开该分组
+                  children: [
                     '/JavaDocument/JavaBase/Collection/Map集合的概述和特点.md',
                     '/JavaDocument/JavaBase/Collection/Map集合的基本功能.md',
                     '/JavaDocument/JavaBase/Collection/Map集合的获取功能.md',
@@ -177,7 +219,26 @@ module.exports = {
                     '/JavaDocument/JavaBase/Collection/案例_ArrayList集合存储HashMap元素并遍历.md',
                     '/JavaDocument/JavaBase/Collection/案例_HashMap集合存储ArrayList元素并遍历.md',
                     '/JavaDocument/JavaBase/Collection/案例_统计字符串中每个字符出现的次数.md',
+                  ]
+                },
+                {
+                  title: 'Collections',
+                  collapsable: false, // 是否展开该分组
+                  children: [
                     '/JavaDocument/JavaBase/Collection/Collections.md',
+                  ]
+                },
+                    
+
+                    // '/JavaDocument/JavaBase/Collection/List概述.md', 
+                    // '/JavaDocument/JavaBase/Collection/常见数据结构.md',
+                    // '/JavaDocument/JavaBase/Collection/List集合的子类.md',
+                    // '/JavaDocument/JavaBase/Collection/Set集合.md',
+                    // '/JavaDocument/JavaBase/Collection/泛型.md',
+
+                    // '/JavaDocument/JavaBase/Collection/类型通配符.md',
+                    // '/JavaDocument/JavaBase/Collection/可变参数.md',
+                    // '/JavaDocument/JavaBase/Collection/可变参数的使用.md',
                 ],
                 // initialOpenGroupIndex: 4, // 初始文章展开深度
               }
