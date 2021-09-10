@@ -176,9 +176,15 @@ module.exports = {
                     '/JavaDocument/JavaBase/Collection/List集合概述和特点.md',
                     '/JavaDocument/JavaBase/Collection/List集合特有方法.md',
                     '/JavaDocument/JavaBase/Collection/案例_List集合存储学生对象并遍历.md',
-                    '/JavaDocument/JavaBase/Collection/Collection集合的遍历.md',
-                    '/JavaDocument/JavaBase/Collection/集合使用步骤图解.md',
-                    '/JavaDocument/JavaBase/Collection/案例_Collection集合存储学生对象并遍历.md',
+                    '/JavaDocument/JavaBase/Collection/并发修改异常.md',
+                    '/JavaDocument/JavaBase/Collection/列表迭代器.md',
+                    '/JavaDocument/JavaBase/Collection/增强for循环.md',
+                    '/JavaDocument/JavaBase/Collection/案例_List集合存储学生对象用三种方式遍历.md',
+                    '/JavaDocument/JavaBase/Collection/数据结构之栈和队列.md',
+                    '/JavaDocument/JavaBase/Collection/数据结构之数组和链表.md',
+                    '/JavaDocument/JavaBase/Collection/List集合子类的特点.md',
+                    '/JavaDocument/JavaBase/Collection/案例_ArrayList集合存储学生对象三种遍历方式.md',
+                    '/JavaDocument/JavaBase/Collection/LinkedList集合的特有功能.md',
                   ]
                 },
                 {
