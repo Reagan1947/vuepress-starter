@@ -163,7 +163,7 @@ module.exports = {
                     '/JavaDocument/JavaBase/Collection/List集合的子类.md',
                     '/JavaDocument/JavaBase/Collection/Set集合.md',
                     '/JavaDocument/JavaBase/Collection/泛型.md',
-                    
+
                     '/JavaDocument/JavaBase/Collection/类型通配符.md',
                     '/JavaDocument/JavaBase/Collection/可变参数.md',
                     '/JavaDocument/JavaBase/Collection/可变参数的使用.md',
@@ -172,6 +172,11 @@ module.exports = {
                     '/JavaDocument/JavaBase/Collection/Map集合的获取功能.md',
                     '/JavaDocument/JavaBase/Collection/Map集合的遍历_方式1.md',
                     '/JavaDocument/JavaBase/Collection/Map集合的遍历_方式2.md',
+                    '/JavaDocument/JavaBase/Collection/案例_HashMap集合存储学生对象并遍历_1.md',
+                    '/JavaDocument/JavaBase/Collection/案例_HashMap集合存储学生对象并遍历_2.md',
+                    '/JavaDocument/JavaBase/Collection/案例_ArrayList集合存储HashMap元素并遍历.md',
+                    '/JavaDocument/JavaBase/Collection/案例_HashMap集合存储ArrayList元素并遍历.md',
+                    '/JavaDocument/JavaBase/Collection/案例_统计字符串中每个字符出现的次数.md',
                 ],
                 // initialOpenGroupIndex: 4, // 初始文章展开深度
               }
