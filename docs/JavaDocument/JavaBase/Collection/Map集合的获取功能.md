@@ -18,7 +18,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Map集合获取功能：
+ *  Map集合获取功能：
  *  V get(Object key)：根据键获取值
  *  Set<K> keySet()：获取所有的键的集合
  *  Collection<V> values()：获取所有值的集合

@@ -191,24 +191,31 @@ module.exports = {
                   title: 'Set',
                   collapsable: false, // 是否展开该分组
                   children: [
-                    '/JavaDocument/JavaBase/Collection/集合体系结构.md',
-                    '/JavaDocument/JavaBase/Collection/Collection集合概述和使用.md',
-                    '/JavaDocument/JavaBase/Collection/Collection集合常用方法.md',
-                    '/JavaDocument/JavaBase/Collection/Collection集合的遍历.md',
-                    '/JavaDocument/JavaBase/Collection/集合使用步骤图解.md',
-                    '/JavaDocument/JavaBase/Collection/案例_Collection集合存储学生对象并遍历.md',
+                    '/JavaDocument/JavaBase/Collection/Set集合概述和特点.md',
+                    '/JavaDocument/JavaBase/Collection/哈希值.md',
+                    '/JavaDocument/JavaBase/Collection/HashSet集合概述和特点.md',
+                    '/JavaDocument/JavaBase/Collection/HashSet集合保证元素唯一性源码分析.md',
+                    '/JavaDocument/JavaBase/Collection/常见数据结构之哈希表.md',
+                    '/JavaDocument/JavaBase/Collection/案例_HashSet集合存储学生对象并遍历.md',
+                    '/JavaDocument/JavaBase/Collection/LinkedHashSet集合概述和特点.md',
+                    '/JavaDocument/JavaBase/Collection/TreeSet集合概述和特点.md',
+                    '/JavaDocument/JavaBase/Collection/自然排序Comparable的使用.md',
+                    '/JavaDocument/JavaBase/Collection/比较器排序Comparator的使用.md',
+                    '/JavaDocument/JavaBase/Collection/案例_成绩排序.md',
+                    '/JavaDocument/JavaBase/Collection/案例_不重复的随机数.md',
                   ]
                 },
                 {
                   title: '泛型',
                   collapsable: false, // 是否展开该分组
                   children: [
-                    '/JavaDocument/JavaBase/Collection/集合体系结构.md',
-                    '/JavaDocument/JavaBase/Collection/Collection集合概述和使用.md',
-                    '/JavaDocument/JavaBase/Collection/Collection集合常用方法.md',
-                    '/JavaDocument/JavaBase/Collection/Collection集合的遍历.md',
-                    '/JavaDocument/JavaBase/Collection/集合使用步骤图解.md',
-                    '/JavaDocument/JavaBase/Collection/案例_Collection集合存储学生对象并遍历.md',
+                    '/JavaDocument/JavaBase/Collection/泛型概述和好处.md',
+                    '/JavaDocument/JavaBase/Collection/泛型类.md',
+                    '/JavaDocument/JavaBase/Collection/泛型方法.md',
+                    '/JavaDocument/JavaBase/Collection/泛型接口.md',
+                    '/JavaDocument/JavaBase/Collection/类型通配符.md',
+                    '/JavaDocument/JavaBase/Collection/可变参数.md',
+                    '/JavaDocument/JavaBase/Collection/可变参数的使用.md',
                   ]
                 },
                 {
@@ -232,6 +239,9 @@ module.exports = {
                   collapsable: false, // 是否展开该分组
                   children: [
                     '/JavaDocument/JavaBase/Collection/Collections.md',
+                    '/JavaDocument/JavaBase/Collection/案例_ArrayList集合存储学生并排序.md',
+                    '/JavaDocument/JavaBase/Collection/案例_模拟扑克牌游戏.md',
+                    '/JavaDocument/JavaBase/Collection/案例_模拟扑克牌游戏_进阶.md',
                   ]
                 },
                     
