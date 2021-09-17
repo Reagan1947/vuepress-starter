@@ -41,7 +41,8 @@ module.exports = {
             ariaLabel: 'Java Grammar',
             items: [
               { text: 'Java 基础语法', link: '/JavaDocument/JavaBase/Base/注释.md' },
-              { text: 'Java 集合进阶', link: '/JavaDocument/JavaBase/Collection/集合体系结构.md' }
+              { text: 'Java 集合进阶', link: '/JavaDocument/JavaBase/Collection/集合体系结构.md' },
+              { text: 'Java IO', link: '/JavaDocument/JavaBase/IO/File类概述和构造方法.md' }
             ]
           },
           { text: 'Java 虚拟机', link: 'https://google.com' },
@@ -53,44 +54,75 @@ module.exports = {
                 title: 'Java 基础语法',   // 分组标题
                 collapsable: false, // 可选的, 默认值是 true,
                 children: [
-                  '/JavaDocument/JavaBase/Base/注释.md',
-                  '/JavaDocument/JavaBase/Base/关键字.md',
-                  '/JavaDocument/JavaBase/Base/常量.md',
-                  '/JavaDocument/JavaBase/Base/数据类型.md',
-                  '/JavaDocument/JavaBase/Base/变量.md',
-                  '/JavaDocument/JavaBase/Base/变量使用的注意事项.md',
-                  '/JavaDocument/JavaBase/Base/标识符.md',
-                  '/JavaDocument/JavaBase/Base/类型转换.md',
-                  '/JavaDocument/JavaBase/Base/算数运算符.md',
-                  '/JavaDocument/JavaBase/Base/字符的+操作.md',
-                  '/JavaDocument/JavaBase/Base/字符串的+操作.md',
-                  '/JavaDocument/JavaBase/Base/赋值运算符.md',
-                  '/JavaDocument/JavaBase/Base/自增自减运算符.md',
-                  '/JavaDocument/JavaBase/Base/关系运算符.md',
-                  '/JavaDocument/JavaBase/Base/逻辑运算符.md',
-                  '/JavaDocument/JavaBase/Base/短路逻辑运算符.md',
-                  '/JavaDocument/JavaBase/Base/三元运算符.md',
-                  '/JavaDocument/JavaBase/Base/数据输入.md',
-                  '/JavaDocument/JavaBase/Base/顺序结构.md',
-                  '/JavaDocument/JavaBase/Base/if结构.md',
-                  '/JavaDocument/JavaBase/Base/switch结构.md',
-                  '/JavaDocument/JavaBase/Base/for循环语句.md',
-                  '/JavaDocument/JavaBase/Base/while结构.md',
-                  '/JavaDocument/JavaBase/Base/do_while结构.md',
-                  '/JavaDocument/JavaBase/Base/三种循环的区别.md',
-                  '/JavaDocument/JavaBase/Base/跳转控制语句.md',
-                  '/JavaDocument/JavaBase/Base/循环嵌套.md',
-                  '/JavaDocument/JavaBase/Base/Random.md',
-                  '/JavaDocument/JavaBase/Base/数组定义格式.md',
-                  '/JavaDocument/JavaBase/Base/数组动态初始化.md',
-                  '/JavaDocument/JavaBase/Base/数组元素访问.md',
-                  '/JavaDocument/JavaBase/Base/内存分配.md',
-                  '/JavaDocument/JavaBase/Base/单个数组内存图.md',
-                  '/JavaDocument/JavaBase/Base/多个数组内存图.md',
-                  '/JavaDocument/JavaBase/Base/多个数组指向相同内存图.md',
-                  '/JavaDocument/JavaBase/Base/数组静态初始化.md',
-                  '/JavaDocument/JavaBase/Base/数组操作的两个常见小问题.md',
-                  '/JavaDocument/JavaBase/Base/数组常见操作.md',
+                  {
+                    title: '基础语法',
+                    collapsable: false, // 是否展开该分组
+                    children: [
+                      '/JavaDocument/JavaBase/Base/注释.md',
+                      '/JavaDocument/JavaBase/Base/关键字.md',
+                      '/JavaDocument/JavaBase/Base/常量.md',
+                      '/JavaDocument/JavaBase/Base/数据类型.md',
+                      '/JavaDocument/JavaBase/Base/变量.md',
+                      '/JavaDocument/JavaBase/Base/变量使用的注意事项.md',
+                      '/JavaDocument/JavaBase/Base/标识符.md',
+                      '/JavaDocument/JavaBase/Base/类型转换.md',
+                    ]
+                  },
+                  {
+                    title: '运算符',
+                    collapsable: false, // 是否展开该分组
+                    children: [
+                      '/JavaDocument/JavaBase/Base/算数运算符.md',
+                      '/JavaDocument/JavaBase/Base/字符的+操作.md',
+                      '/JavaDocument/JavaBase/Base/字符串的+操作.md',
+                      '/JavaDocument/JavaBase/Base/赋值运算符.md',
+                      '/JavaDocument/JavaBase/Base/自增自减运算符.md',
+                      '/JavaDocument/JavaBase/Base/关系运算符.md',
+                      '/JavaDocument/JavaBase/Base/逻辑运算符.md',
+                      '/JavaDocument/JavaBase/Base/短路逻辑运算符.md',
+                      '/JavaDocument/JavaBase/Base/三元运算符.md',
+                    ]
+                  },
+                  {
+                    title: '数据输入',
+                    collapsable: false, // 是否展开该分组
+                    children: [
+                      '/JavaDocument/JavaBase/Base/数据输入.md',
+                    ]
+                  },
+                  {
+                    title: '分支语句',
+                    collapsable: false, // 是否展开该分组
+                    children: [
+                      '/JavaDocument/JavaBase/Base/顺序结构.md',
+                      '/JavaDocument/JavaBase/Base/if结构.md',
+                      '/JavaDocument/JavaBase/Base/switch结构.md',
+                      '/JavaDocument/JavaBase/Base/for循环语句.md',
+                      '/JavaDocument/JavaBase/Base/while结构.md',
+                      '/JavaDocument/JavaBase/Base/do_while结构.md',
+                      '/JavaDocument/JavaBase/Base/三种循环的区别.md',
+                      '/JavaDocument/JavaBase/Base/跳转控制语句.md',
+                      '/JavaDocument/JavaBase/Base/循环嵌套.md',
+                      '/JavaDocument/JavaBase/Base/Random.md',
+                    ]
+                  },
+                  {
+                    title: '数组',
+                    collapsable: false, // 是否展开该分组
+                    children: [
+                      '/JavaDocument/JavaBase/Base/数组定义格式.md',
+                      '/JavaDocument/JavaBase/Base/数组动态初始化.md',
+                      '/JavaDocument/JavaBase/Base/数组元素访问.md',
+                      '/JavaDocument/JavaBase/Base/内存分配.md',
+                      '/JavaDocument/JavaBase/Base/单个数组内存图.md',
+                      '/JavaDocument/JavaBase/Base/多个数组内存图.md',
+                      '/JavaDocument/JavaBase/Base/多个数组指向相同内存图.md',
+                      '/JavaDocument/JavaBase/Base/数组静态初始化.md',
+                      '/JavaDocument/JavaBase/Base/数组操作的两个常见小问题.md',
+                      '/JavaDocument/JavaBase/Base/数组常见操作.md',
+                    ]
+                  },
+              
                   '/JavaDocument/JavaBase/Base/方法概述.md',
                   '/JavaDocument/JavaBase/Base/方法定义和调用.md',
 
@@ -149,7 +181,19 @@ module.exports = {
                   '/JavaDocument/JavaBase/Base/Integer类的概述和使用.md',
                   '/JavaDocument/JavaBase/Base/字符串中的数据排序.md',
                   '/JavaDocument/JavaBase/Base/自动装箱和拆箱.md',
-                  '/JavaDocument/JavaBase/Base/日期类.md',
+                  {
+                    title: '日期类',
+                    collapsable: false, // 是否展开该分组
+                    children: [
+                      '/JavaDocument/JavaBase/Base/Date.md',
+                      '/JavaDocument/JavaBase/Base/Date常用方法.md',
+                      '/JavaDocument/JavaBase/Base/SimpleDataFormat.md',
+                      '/JavaDocument/JavaBase/Base/案例_日期工具类.md',
+                      '/JavaDocument/JavaBase/Base/Calendar.md',
+                      '/JavaDocument/JavaBase/Base/Calendar常用方法.md',
+                      '/JavaDocument/JavaBase/Base/案例_二月天.md',
+                    ]
+                  },
                   '/JavaDocument/JavaBase/Base/异常.md'
                 ]
               },
@@ -256,6 +300,42 @@ module.exports = {
                     // '/JavaDocument/JavaBase/Collection/可变参数.md',
                     // '/JavaDocument/JavaBase/Collection/可变参数的使用.md',
                 ],
+                title: 'Java IO',
+                collapsable: false, // 是否展开该分组
+                children: [
+                  {
+                  title: 'File',
+                  collapsable: false, // 是否展开该分组
+                  children: [
+                    '/JavaDocument/JavaBase/IO/File类概述和构造方法.md',
+                    '/JavaDocument/JavaBase/IO/File类创建功能.md',
+                    '/JavaDocument/JavaBase/IO/File类删除功能.md',
+                    '/JavaDocument/JavaBase/IO/File类的判断和获取功能.md',
+                  
+                  ]
+                },
+                {
+                  title: '字节流',
+                  collapsable: false, // 是否展开该分组
+                  children: [
+                   
+                  ]
+                },
+                {
+                  title: '字符流',
+                  collapsable: false, // 是否展开该分组
+                  children: [
+                    
+                  ]
+                },
+                {
+                  title: '特殊操作流',
+                  collapsable: false, // 是否展开该分组
+                  children: [
+                    
+                  ]
+                },
+              ],
                 // initialOpenGroupIndex: 4, // 初始文章展开深度
               }
             ]
