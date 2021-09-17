@@ -310,7 +310,7 @@ module.exports = {
                     '/JavaDocument/JavaBase/IO/File类概述和构造方法.md',
                     '/JavaDocument/JavaBase/IO/File类创建功能.md',
                     '/JavaDocument/JavaBase/IO/File类删除功能.md',
-                    '/JavaDocument/JavaBase/IO/File类的判断和获取功能.md',
+                    '/JavaDocument/JavaBase/IO/File类判断和获取功能.md',
                   
                   ]
                 },
