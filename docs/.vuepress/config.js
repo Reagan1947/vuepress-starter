@@ -312,6 +312,8 @@ module.exports = {
                     '/JavaDocument/JavaBase/IO/File类删除功能.md',
                     '/JavaDocument/JavaBase/IO/File类判断和获取功能.md',
                     '/JavaDocument/JavaBase/IO/递归.md',
+                    '/JavaDocument/JavaBase/IO/案例_递归求阶乘.md',
+                    '/JavaDocument/JavaBase/IO/案例_遍历目录.md',
                   
                   ]
                 },
@@ -319,6 +321,7 @@ module.exports = {
                   title: '字节流',
                   collapsable: false, // 是否展开该分组
                   children: [
+                    '/JavaDocument/JavaBase/IO/IO流概述和分类.md',
                    
                   ]
                 },
