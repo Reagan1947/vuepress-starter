@@ -322,7 +322,16 @@ module.exports = {
                   collapsable: false, // 是否展开该分组
                   children: [
                     '/JavaDocument/JavaBase/IO/IO流概述和分类.md',
-                   
+                    '/JavaDocument/JavaBase/IO/字节流写数据.md',
+                    '/JavaDocument/JavaBase/IO/字节流写输入的三种方式.md',
+                    '/JavaDocument/JavaBase/IO/字节流写数据的两个小问题.md',
+                    '/JavaDocument/JavaBase/IO/字节流写数据加异常处理.md',
+                    '/JavaDocument/JavaBase/IO/字节流读数据_一次读一个字节数据_.md',
+                    '/JavaDocument/JavaBase/IO/案例_复制文本文件.md',
+                    '/JavaDocument/JavaBase/IO/字节流读数据_一次读一个字节数组数据_.md',
+                    '/JavaDocument/JavaBase/IO/案例_复制图片.md',
+                    '/JavaDocument/JavaBase/IO/字节缓冲流.md',
+                    '/JavaDocument/JavaBase/IO/案例_复制视频.md',
                   ]
                 },
                 {
