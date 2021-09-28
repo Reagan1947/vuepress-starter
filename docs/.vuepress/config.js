@@ -357,6 +357,10 @@ module.exports = {
               '/JavaDocument/JavaBase/IO/字符流中的编码解码问题.md',
               '/JavaDocument/JavaBase/IO/字符流写数据的5种方式.md',
               '/JavaDocument/JavaBase/IO/字符流读数据的2种方式.md',
+              '/JavaDocument/JavaBase/IO/字符流读数据的2种方式.md',
+              '/JavaDocument/JavaBase/IO/案例_字符流复制Java文件.md',
+              '/JavaDocument/JavaBase/IO/案例_复制Java文件_改进版_.md',
+              '/JavaDocument/JavaBase/IO/字符缓冲流.md',
             ]
           },
           {
