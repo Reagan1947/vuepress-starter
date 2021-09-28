@@ -361,6 +361,7 @@ module.exports = {
               '/JavaDocument/JavaBase/IO/案例_字符流复制Java文件.md',
               '/JavaDocument/JavaBase/IO/案例_复制Java文件_改进版_.md',
               '/JavaDocument/JavaBase/IO/字符缓冲流.md',
+              '/JavaDocument/JavaBase/IO/案例_复制Java文件_字符缓冲流改进版_.md',
             ]
           },
           {
