@@ -370,6 +370,8 @@ module.exports = {
               '/JavaDocument/JavaBase/IO/案例_集合到文件_改进版.md',
               '/JavaDocument/JavaBase/IO/案例_文件到集合_改进版.md',
               '/JavaDocument/JavaBase/IO/案例_集合到文件_数据排序改进版.md',
+              '/JavaDocument/JavaBase/IO/案例_复制单级文件夹.md',
+              '/JavaDocument/JavaBase/IO/案例_复制多级文件夹.md',
             ]
           },
           {
