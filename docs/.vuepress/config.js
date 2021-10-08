@@ -372,13 +372,14 @@ module.exports = {
               '/JavaDocument/JavaBase/IO/案例_集合到文件_数据排序改进版.md',
               '/JavaDocument/JavaBase/IO/案例_复制单级文件夹.md',
               '/JavaDocument/JavaBase/IO/案例_复制多级文件夹.md',
+              '/JavaDocument/JavaBase/IO/复制文件的异常处理.md',
             ]
           },
           {
             title: '特殊操作流',
             collapsable: false, // 是否展开该分组
             children: [
-
+              '/JavaDocument/JavaBase/IO/标准输入流.md',
             ]
           },
         ],
