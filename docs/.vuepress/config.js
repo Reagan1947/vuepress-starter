@@ -380,6 +380,9 @@ module.exports = {
             collapsable: false, // 是否展开该分组
             children: [
               '/JavaDocument/JavaBase/IO/标准输入流.md',
+              '/JavaDocument/JavaBase/IO/标准输出流.md',
+              '/JavaDocument/JavaBase/IO/字节打印流.md',
+              '/JavaDocument/JavaBase/IO/字符打印流.md',
             ]
           },
         ],
