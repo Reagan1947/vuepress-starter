@@ -390,8 +390,16 @@ module.exports = {
               '/JavaDocument/JavaBase/IO/Properties作为Map集合的使用.md',
               '/JavaDocument/JavaBase/IO/Properties作为Map集合的特有方法.md',
               '/JavaDocument/JavaBase/IO/Properties和IO流相结合的方法.md',
+              '/JavaDocument/JavaBase/IO/案例_游戏次数.md',
             ]
           },
+          {
+            title: '进程',
+            collapsable: false, // 是否展开该分组
+            children: [
+              '/JavaDocument/JavaBase/Thread/进程和线程.md',
+            ]
+          }
         ],
         // initialOpenGroupIndex: 4, // 初始文章展开深度
       }
