@@ -385,6 +385,8 @@ module.exports = {
               '/JavaDocument/JavaBase/IO/字符打印流.md',
               '/JavaDocument/JavaBase/IO/案例_复制Java文件_打印流改进版.md',
               '/JavaDocument/JavaBase/IO/对象序列化流.md',
+              '/JavaDocument/JavaBase/IO/对象反序列化流.md',
+              '/JavaDocument/JavaBase/IO/serialVersionUID_transient.md',
             ]
           },
         ],
