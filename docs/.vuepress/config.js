@@ -387,6 +387,9 @@ module.exports = {
               '/JavaDocument/JavaBase/IO/对象序列化流.md',
               '/JavaDocument/JavaBase/IO/对象反序列化流.md',
               '/JavaDocument/JavaBase/IO/serialVersionUID_transient.md',
+              '/JavaDocument/JavaBase/IO/Properties作为Map集合的使用.md',
+              '/JavaDocument/JavaBase/IO/Properties作为Map集合的特有方法.md',
+              '/JavaDocument/JavaBase/IO/Properties和IO流相结合的方法.md',
             ]
           },
         ],
