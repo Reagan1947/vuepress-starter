@@ -57,6 +57,10 @@ module.exports = {
           {
             text: 'Java IO',
             link: '/JavaDocument/JavaBase/IO/File类概述和构造方法.md'
+          },
+          {
+            text: 'Java 线程',
+            link: '/JavaDocument/JavaBase/Thread/进程和线程.md'
           }
         ]
       },
