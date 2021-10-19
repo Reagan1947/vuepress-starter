@@ -402,6 +402,14 @@ module.exports = {
             collapsable: false, // 是否展开该分组
             children: [
               '/JavaDocument/JavaBase/Thread/进程和线程.md',
+              '/JavaDocument/JavaBase/Thread/继承Thread类的方式实现多线程.md',
+              '/JavaDocument/JavaBase/Thread/设置和获取线程名称.md',
+              '/JavaDocument/JavaBase/Thread/线程调度.md',
+              '/JavaDocument/JavaBase/Thread/线程控制.md',
+              '/JavaDocument/JavaBase/Thread/线程生命周期.md',
+              '/JavaDocument/JavaBase/Thread/实现Runable接口的方式实现多线程.md',
+              '/JavaDocument/JavaBase/Thread/案例_售卖电影票.md',
+              '/JavaDocument/JavaBase/Thread/卖票案例的思考.md',
             ]
           }
         ],
